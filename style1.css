@@ -1,0 +1,89 @@
+body{
+
+    background-image: url(pic2.jpg);
+    background-size:cover;
+
+    
+}
+nav{
+    background-color: rgb(61, 34, 97);
+   
+    width:110%;
+    height:100px;
+    margin-left:-10px;
+    margin-top: -30px;
+    
+
+}
+
+
+ul{
+    float: left;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+ul li a{
+    text-decoration:none;
+    color:white;
+    padding: 5px 20px;
+    border:1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: green;
+    color: blue;
+}
+ul li.active a{
+    background-color:plum;
+    color: #000;
+}
+.main{
+    max-width: 1200px;
+    margin:auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: -30%;
+    transform:translate(-50%,-50%);
+}
+
+.title h1{
+    color:black;
+    font-size: 40px;
+}
+
+.button{
+
+position: absolute;
+    top: 62%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    margin-top:-350px;
+    margin-left:400px;
+    margin-right: 10px;
+}
+
+.btn{
+    border: 1px solid whitesmoke;
+    padding: 10px 10px;
+    color:palegreen;
+    text-decoration: none;
+    transform: 0.6s ease;
+    margin-right: 5px;
+    background-color: green;
+    
+   
+}
+.btn:hover
+{
+    background-color:greenyellow;
+    color: #000;
+}
